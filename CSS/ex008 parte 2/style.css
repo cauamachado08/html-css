@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+
+}
+body{
+        background-image: linear-gradient(to right,#102540, #AD26BF, #1A3D5D);
+}
+div >p{
+    display: none;
+
+}
+div:hover > p{
+    display: block;
+    color:red
+    background-color:blue
+
+}
+div:hover{
+    color:red   
+}
+
+h1{
+    text-align:center
+}
+p{
+    text-align:center
+}
+div{
+    text-align:center
+}

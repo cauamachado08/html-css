@@ -1,0 +1,35 @@
+@charset "UTF-";´
+body{
+      font-family: Arial, Helvetica, sans-serif;
+}
+a{
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+a:visited {
+      color: rgb(24, 206, 115);
+}
+a:hover {
+      color: black;
+      text-decoration: underline;
+}
+a::before {
+      content: '↠';
+}
+a::after {
+      content: '↞';
+}
+
+a:active{
+      color: yellowgreen;
+}
+.especial::before {
+      content: '☽' ;
+}
+.especial::after {
+      content: '☾';
+}
+.especila {background-color: rgb(102, 58, 153);
+color: blueviolet;}

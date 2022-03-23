@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+
+}
+body{
+    background-image: linear-gradient( to right, rgb(0, 0, 0), rgb(22, 22, 156), rgb(121, 23, 23));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: red;
+}
+li{
+    color: rgb(14, 6, 252);
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold
+}
+a:visited{
+    color: rgb(209, 191, 194);
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(19, 157, 236);
+}
+.especial::before{
+    content: "⇒	";
+}
+}
+a:active{
+    color: yellow;
+}
+.especial::after{
+    content: " ⇐ ";
+
